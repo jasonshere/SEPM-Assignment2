@@ -1,1 +1,1 @@
-web/index.php
+sprint1/web/index.php
