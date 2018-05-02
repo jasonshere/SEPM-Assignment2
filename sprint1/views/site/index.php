@@ -5,69 +5,86 @@ use yii\bootstrap\Carousel;
 $this->title = 'Cinema Aurora';
 ?>
 <div class="site-index">
-<img src="holder.js/300x200">
 <?php
 
-    echo Carousel::widget([
-        'items' => [
-            // the item contains only the image
-            '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg"/>',
-            // equivalent to the above
-            ['content' => '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-02.jpg"/>'],
-            // the item contains both the image and the caption
-            [
-                'content' => '<img src="http://twitter.github.io/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg"/>',
-                'caption' => '<h4>This is title</h4><p>This is the caption text</p>',
-                'options' => [],
-            ],
-        ]
+   $items = [
+    [
+        'title' => 'Avengers',
+        'href' => 'https://www.youtube.com/watch?v=gQrkvZeE3Uc',
+        'type' => 'text/html',
+        'youtube' => 'gQrkvZeE3Uc',
+        'poster' => 'holder.js/1450x450'
+    ],
+    [
+        'title' => 'Sintel',
+        'href' => 'http://media.w3.org/2010/05/sintel/trailer.mp4',
+        'type' => 'video/mp4',
+        'poster' => 'http://media.w3.org/2010/05/sintel/poster.png'
+    ],
+    [
+        'title' => 'Sintel',
+        'href' => 'http://media.w3.org/2010/05/sintel/trailer.mp4',
+        'type' => 'video/mp4',
+        'poster' => 'http://media.w3.org/2010/05/sintel/poster.png'
+    ],
+]; 
+
+    echo dosamigos\gallery\Carousel::widget([
+        'items' => $items, 'json' => true,
+        'clientEvents' => [
+            'onslide' => 'function(index, slide) {
+                console.log(slide);
+            }'
+        ],
     ]);
 
 ?>
 
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
+    <div class="container">
+        <h3 class="text-center latest">Latest Movies</h3>
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail">
+              <img src="holder.js/400x200" alt="Avengers 3D">
+              <div class="caption">
+                <h3>Avengers 3D</h3>
+                <p>Avengers 3D</p>
+                <p><a href="#" class="btn btn-primary" role="button">Add To Cart</a></p>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail">
+              <img src="holder.js/400x200" alt="Avengers 3D">
+              <div class="caption">
+                <h3>Avengers 3D</h3>
+                <p>Avengers 3D</p>
+                <p><a href="#" class="btn btn-primary" role="button">Add To Cart</a></p>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail">
+              <img src="holder.js/400x200" alt="Avengers 3D">
+              <div class="caption">
+                <h3>Avengers 3D</h3>
+                <p>Avengers 3D</p>
+                <p><a href="#" class="btn btn-primary" role="button">Add To Cart</a></p>
+              </div>
             </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="thumbnail">
+              <img src="holder.js/400x200" alt="Avengers 3D">
+              <div class="caption">
+                <h3>Avengers 3D</h3>
+                <p>Avengers 3D</p>
+                <p><a href="#" class="btn btn-primary" role="button">Add To Cart</a></p>
+              </div>
+            </div>
+          </div>
         </div>
-
     </div>
+
+
 </div>

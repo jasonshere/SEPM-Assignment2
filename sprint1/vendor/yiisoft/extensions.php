@@ -57,4 +57,13 @@ return array (
       '@evgeniyrru/yii2slick' => $vendorDir . '/evgeniyrru/yii2-slick',
     ),
   ),
+  '2amigos/yii2-gallery-widget' => 
+  array (
+    'name' => '2amigos/yii2-gallery-widget',
+    'version' => '1.1.0.0',
+    'alias' => 
+    array (
+      '@dosamigos/gallery' => $vendorDir . '/2amigos/yii2-gallery-widget/src',
+    ),
+  ),
 );
