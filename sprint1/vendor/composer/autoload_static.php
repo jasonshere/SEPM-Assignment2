@@ -30,6 +30,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'e' => 
+        array (
+            'evgeniyrru\\yii2slick\\' => 21,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -110,6 +114,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'evgeniyrru\\yii2slick\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/evgeniyrru/yii2-slick',
         ),
         'cebe\\markdown\\' => 
         array (

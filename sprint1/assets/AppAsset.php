@@ -30,7 +30,8 @@ class AppAsset extends AssetBundle
         'web/css/site.css',
     ];
     public $js = [
-        'web/js/bootsnav.js'
+        'web/js/bootsnav.js',
+        'https://cdn.bootcss.com/holder/2.9.4/holder.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
