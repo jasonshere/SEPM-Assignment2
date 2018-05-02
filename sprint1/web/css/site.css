@@ -117,9 +117,14 @@ a.desc:after {
     outline: none;
 }
 
+.sku-name {
+	font-size: 50px;
+	font-family:Arial;
+}
 
+.time-day{
+	font-size: 20px;
+	color: black;
+	font-family:Arial;
 
-
-
-
-
+}
