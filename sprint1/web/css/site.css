@@ -116,3 +116,25 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.sku-name {
+	font-size: 50px;
+	font-family:Arial;
+}
+
+.time-day{
+	font-size: 20px;
+	color: black;
+	font-family:Arial;
+
+}
+
+
+
+
+
+
+
+
+
+
