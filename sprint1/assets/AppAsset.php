@@ -20,9 +20,17 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'web/css/animate.css',
+        'web/css/bootsnav.css',
+        'web/css/htmleaf-demo.css',
+        'web/css/overwrite.css',
+        'web/css/style.css',
+        'web/css/color.css',
+        'web/fonts/FontAwesome/font-awesome.css',
         'web/css/site.css',
     ];
     public $js = [
+        'web/js/bootsnav.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
