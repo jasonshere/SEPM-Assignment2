@@ -98,9 +98,9 @@ AppAsset::register($this);
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Movies</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['site/index']); ?>">Home</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['movie/view']); ?>">Movies</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['site/faq']); ?>">FAQ</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>   
@@ -119,9 +119,9 @@ AppAsset::register($this);
             <div class="widget">
                 <h6 class="title">Menu</h6>
                 <ul class="link">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Movies</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['site/index']); ?>">Home</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['movie/view']); ?>">Movies</a></li>
+                    <li><a href="<?php echo Yii::$app->urlManager->createUrl(['site/faq']); ?>">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -129,52 +129,7 @@ AppAsset::register($this);
     </nav>
     <!-- End Navigation -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php
-/*    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-left'],
-        'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'FAQ', 'url' => ['/site/about']],
-        ],
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'encodeLabels' => false,
-        'items' => [
-            ['label' => '<i class="glyphicon glyphicon-user"></i>', 'url' => ['/site/index'],
-                'items' => [
-                    ['label' => 'My Tickets', 'url' => ''],
-                    ['label' => 'My Orders', 'url' => ''],
-                ],
-            ],
-            ['label' => '<i class="glyphicon glyphicon-shopping-cart"></i>', 'url' => ['/site/about']],
-            ['label' => 'search', 'url' => ['/site/about']],
-        ],
-    ]);
-
-    NavBar::end();
- */  ?>
-
-    <div class="container">
+    <div class="container-fluid" style="margin:0;padding:0">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

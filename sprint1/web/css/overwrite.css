@@ -425,3 +425,14 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
     }
 }
 
+h3.text-center.latest {
+    height: 80px;
+    line-height: 80px;
+}
+
+h3.text-center.latest:before,h3.text-center.latest:after {
+    content: "—";
+}
+
+
+

@@ -34,6 +34,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         array (
             'evgeniyrru\\yii2slick\\' => 21,
         ),
+        'd' => 
+        array (
+            'dosamigos\\gallery\\' => 18,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -118,6 +122,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         'evgeniyrru\\yii2slick\\' => 
         array (
             0 => __DIR__ . '/..' . '/evgeniyrru/yii2-slick',
+        ),
+        'dosamigos\\gallery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-gallery-widget/src',
         ),
         'cebe\\markdown\\' => 
         array (
