@@ -335,7 +335,7 @@ class Movie extends ActiveRecord
           ),
         ); 
         $movies = json_encode($movies);
-        file_put_contents(__DIR__."/../data/sepm.dat", $movies);
+        file_put_contents(self::MOVIE_DATA_FILE, $movies);
     }
    
 }
