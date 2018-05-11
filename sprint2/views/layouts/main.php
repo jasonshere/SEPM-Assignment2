@@ -9,6 +9,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\bootstrap\ActiveForm;
 
 AppAsset::register($this);
 ?>
@@ -41,7 +42,28 @@ AppAsset::register($this);
             <div class="container">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                    <input type="text" class="form-control" placeholder="Search Movie">
+                    <?php $form = ActiveForm::begin([
+                        'action' => yii\helpers\Url::to(['movie/search']),
+                    ]) ?>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="title" type="text" class="form-control" placeholder="Please Input Movie's Name" style="border: 1px solid #ccc;margin-left:9px;height:34px;border-radius:5px;margin-top:3px;">
+                        </div>
+                        <div class="col-md-4">
+                            <select name="playing_time" class="form-control" style="margin-top:3px;border:1px solid #ccc;background:transparent;color:#ffffff;outline:none;">
+                              <option value="0">Please Choose Session Time</option>
+                              <?php
+                                foreach ($this->params['session_time'] as $session_time) {
+                                    echo '<option>'.$session_time.'</option>';
+                                }
+                              ?>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="submit" class="btn btn-primary" value="search" style="margin-top:3px;width:150px;">
+                        </div>
+                    </div>
+                    <?php ActiveForm::end(); ?>
                     <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
                 </div>
             </div>

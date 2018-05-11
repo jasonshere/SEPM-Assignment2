@@ -12,9 +12,6 @@
     .row.text-center i.disable {
         color: red;
     }
-    .row.text-center i:hover {
-        color: green;
-    }
 </style>
 <div class="container" style="margin-top: 20px">
 
@@ -23,53 +20,45 @@
         <div class="col-sm-6 col-md-6">
             
             <a href="#" class="thumbnail">
-                <img src="holder.js/600x600" alt="...">
+                <img src="<?php echo $result['big_post']; ?>" alt="<?php echo $result['title']; ?>">
             </a>
 
         </div>
 
         <div class="col-md-6 col-sm-6">
-            <h3 class="text-center">Avegers</h3>
-            <h3 class="text-center" style="color: #dd0000">$22.99</h3>
-            <?php $form = ActiveForm::begin([
-                'action' => Yii::$app->urlManager->createUrl(["cart/view"]),
-            ]); ?>
+            <h3 class="text-center"><?php echo $result['title']; ?></h3>
+            <h3 class="text-center" style="color: #dd0000">$ <?php echo $result['price']; ?></h3>
               <div class="form-group">
                 <label for="quantity">Quantity</label>
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                </select>
+                <input class="form-control" name="quantity" type="number" value="1" disabled>
               </div>
               <div class="form-group">
                 <label for="quantity">Date</label>
-                <select class="form-control">
-                  <option>2018-05-02</option>
-                  <option>2018-05-03</option>
-                  <option>2018-05-04</option>
-                  <option>2018-05-05</option>
-                  <option>2018-05-06</option>
+                <select id="playing_date" name="playing_date" class="form-control">
+                <?php
+                    foreach($result['playing_date'] as $date) {
+                        echo '<option value="'.$date.'">'.$date.'</option>';
+                    }
+                ?>
                 </select>
               </div>
               <div class="form-group">
                 <label for="quantity">Time</label>
-                <select class="form-control">
-                  <option>02:00PM - 04:00PM</option>
-                  <option>04:00PM - 06:00PM</option>
-                  <option>06:00PM - 08:00PM</option>
+                <select id="playing_time" name="playing_time" class="form-control">
+                <?php
+                    foreach($result['playing_time'] as $time) {
+                        echo '<option value="'.$time.'">'.$time.'</option>';
+                    }
+                ?>
                 </select>
               </div>
               <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                   choose my seats
                 </button>
-              <button type="submit" class="btn btn-success">Add To Cart</button>
-            <?php ActiveForm::end(); ?>
-            <p style="margin-top: 20px;">The describtion of the movie, Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <input type="hidden" name="id" value="<?php echo $result['id']; ?>">
+              <button type="submit" class="btn btn-success" id="add_to_cart">Add To Cart</button>
+            <p style="margin-top: 20px;"><?php echo $result['description']; ?></p>
         </div>
 
     </div>
@@ -82,79 +71,126 @@ Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit no
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Hall #4</h4>
+        <h4 class="modal-title" id="myModalLabel"><?php echo $result['theater']; ?></h4>
       </div>
       <div class="modal-body">
         <div style="background-color: #ccc;width: 200px;height: 15px;margin:auto"></div>
         <p class="text-center">Screen</p>
+        <?php for($row = 1;$row <= 5;$row++): ?>
         <div class="row text-center">
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
+            <?php for($seat = 1; $seat <= 10; $seat++): ?>
+                <i class="glyphicon glyphicon-print seat-<?php echo $row."-".$seat; ?>"></i>
+            <?php endfor; ?>
         </div>
-        <div class="row text-center">
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-        </div>
-        <div class="row text-center">
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-        </div>
-        <div class="row text-center">
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-        </div>
-        <div class="row text-center">
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print disable"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-            <i class="glyphicon glyphicon-print"></i>
-        </div>
-
+        <?php endfor; ?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-primary" id="save_seats">Save</button>
       </div>
     </div>
   </div>
 </div>
+<?php $this->beginBlock("seats") ?>
+
+    (function($) {  
+    $.fn.clickToggle = function(func1, func2) {  
+        var funcs = [func1, func2];  
+        this.data('toggleclicked', 0);  
+        this.click(function() {  
+            var data = $(this).data();  
+            var tc = data.toggleclicked;  
+            $.proxy(funcs[tc], this)();  
+            data.toggleclicked = (tc + 1) % 2;  
+         });  
+        return this;  
+     };  
+    }(jQuery)); 
 
 
+    var seats = <?php echo json_encode($result['seats']); ?>;
+    var playing_date = $("#playing_date").val();
+    var playing_time = $("#playing_time").val();
+    var playing_datetime = playing_date+' '+playing_time;
+    var currentSeats = seats[playing_datetime];
+    for (var i in currentSeats) {
+        $(".seat-"+currentSeats[i]).css("color", "red");
+    }
+
+    $("#playing_date").change(function(){
+        $(":input[name=quantity]").val(1);
+        $(".glyphicon.glyphicon-print").css("color", "#bbb").removeClass("selected");
+        playing_date = $(this).val();
+        playing_datetime = playing_date+' '+playing_time;
+        var currentSeats = seats[playing_datetime];
+        for (var i in currentSeats) {
+            $(".seat-"+currentSeats[i]).css("color", "red");
+        }
+    });
+    
+    $("#playing_time").change(function(){
+        $(":input[name=quantity]").val(1);
+        $(".glyphicon.glyphicon-print").css("color", "#bbb").removeClass("selected");
+        playing_time = $(this).val();
+        playing_datetime = playing_date+' '+playing_time;
+        var currentSeats = seats[playing_datetime];
+        for (var i in currentSeats) {
+            $(".seat-"+currentSeats[i]).css("color", "red");
+        }
+    });
+    $(".glyphicon.glyphicon-print").clickToggle(function(){
+        if ($(this).css("color") != "rgb(255, 0, 0)") {
+            $(this).css("color", "green");
+            $(this).addClass("selected");
+        }
+    }, function(){
+        if ($(this).css("color") != "rgb(255, 0, 0)") {
+            $(this).css("color", "#bbb");
+        }
+    });
+
+    $("#save_seats").click(function(){
+        var seats = new Array();
+        $(".glyphicon.glyphicon-print.selected").each(function(data){
+            seats.push(this.className.split(" ")[2]);
+        });
+        var count = seats.length;
+        $(":input[name=quantity]").val(count);
+        $('#myModal').modal('hide');
+    });
+
+    $("#add_to_cart").click(function(){
+        var id = $(":input[name=id]").val();
+        var price = <?php echo $result['price']; ?>;
+        var quantity = $(":input[name=quantity]").val();
+        var seats = new Array();
+        $(".glyphicon.glyphicon-print.selected").each(function(data){
+            seats.push(this.className.split(" ")[2]);
+        });
+        var playing_date = $(":input[name=playing_date]").val();
+        var playing_time = $("#playing_time").val();
+        if (seats.length <= 0) {
+            alert("Please choose your seat!");
+        } else {
+            $.post("<?php echo Yii::$app->urlManager->createUrl(['cart/store']); ?>", {
+                "id": id,
+                "price": price,
+                "quantity": quantity,
+                "seats": seats,
+                "playing_date": playing_date,
+                "playing_time": playing_time
+            }, function(data){
+                if (data.code == 0) {
+                    alert("Add Tickets Successfully!");
+                    window.location.href = "<?php echo Yii::$app->urlManager->createUrl(['cart/view']); ?>";
+                } else {
+                    alert("Add Tickets Failed, Please Readd!");
+                }
+            }, "json");
+        }
+    });
+
+
+        
+<?php $this->endBlock() ?>
+<?php $this->registerJs($this->blocks["seats"], \yii\web\View::POS_END); ?>

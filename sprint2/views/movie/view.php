@@ -6,73 +6,23 @@
 <div class="container" style="margin-top: 20px;">
 
 	<div class="row">
-	  <div class="col-sm-6 col-md-4">
-        <a href="<?php echo Yii::$app->urlManager->createUrl(["movie/detail", "id" => 1]); ?>">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>THE GREATEST </h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
 
+    <?php foreach($result as $movie): ?>
+
+      <div class="col-sm-6 col-md-4" style="min-height:430px;height: 430px;overflow:hidden;margin-bottom:20px;">
+        <a href="<?php echo Yii::$app->urlManager->createUrl(["movie/detail", "id" => $movie['id']]); ?>">
+		<div class="thumbnail" style="min-height:430px;height: 430px;overflow:hidden;">
+        <img src="<?php echo $movie['post']; ?>" alt="<?php echo $movie['title']; ?>" style="width:200px;height:300px;">
+		  <div class="caption">
+            <h3><?php echo $movie['title']; ?></h3>
+            <p><?php echo $movie['description']; ?></p>
 		  </div>
         </div>
         </a>
 	  </div>
-  
-	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>A QUIET PLACE</h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
-		  </div>
-		</div>
-	  </div>
-	  
-	  	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>RAMPAGE</h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
 
-		  </div>
-		</div>
-	  </div>
+    <?php endforeach; ?>
+
 	</div>
-	
-	
-	<div class="row">
-	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>THE GREATEST </h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
 
-		  </div>
-		</div>
-	  </div>
-  
-	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>A QUIET PLACE</h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
-		  </div>
-		</div>
-	  </div>
-	  
-	  	  <div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-		  <img src="holder.js/400x300" alt="..." style="width:200px;height:300px;">
-		  <div class="caption">
-			<h3>RAMPAGE</h3>
-			<p>Inspired by the imagination of P.T. Barnum, The Greatest Showman is an original musical that celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.</p>
-
-		  </div>
-		</div>
-	  </div>
-	</div>
 </div>
