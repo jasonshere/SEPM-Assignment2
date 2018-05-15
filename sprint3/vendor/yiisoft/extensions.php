@@ -66,4 +66,31 @@ return array (
       '@dosamigos/gallery' => $vendorDir . '/2amigos/yii2-gallery-widget/src',
     ),
   ),
+  'kartik-v/yii2-krajee-base' => 
+  array (
+    'name' => 'kartik-v/yii2-krajee-base',
+    'version' => '1.8.9.0',
+    'alias' => 
+    array (
+      '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base',
+    ),
+  ),
+  'andrewblake1/yii2-credit-card' => 
+  array (
+    'name' => 'andrewblake1/yii2-credit-card',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@andrewblake1/creditcard' => $vendorDir . '/andrewblake1/yii2-credit-card',
+    ),
+  ),
+  'lulubin/yii2-helper-qrcode' => 
+  array (
+    'name' => 'lulubin/yii2-helper-qrcode',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@lulubin/qrcode' => $vendorDir . '/lulubin/yii2-helper-qrcode/src',
+    ),
+  ),
 );

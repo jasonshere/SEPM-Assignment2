@@ -9,10 +9,10 @@
 
     <?php foreach($result as $movie): ?>
 
-      <div class="col-sm-6 col-md-4" style="min-height:430px;height: 430px;overflow:hidden;margin-bottom:20px;">
+      <div class="col-sm-6 col-md-4" style="min-height:430px;margin-bottom:20px;">
         <a href="<?php echo Yii::$app->urlManager->createUrl(["movie/detail", "id" => $movie['id']]); ?>">
-		<div class="thumbnail" style="min-height:430px;height: 430px;overflow:hidden;">
-        <img src="<?php echo $movie['post']; ?>" alt="<?php echo $movie['title']; ?>" style="width:200px;height:300px;">
+		<div class="thumbnail" style="min-height:430px;height: 700px;">
+        <img style="width: 400px; height: 500px" src="<?php echo $movie['post']; ?>" alt="<?php echo $movie['title']; ?>" style="width:200px;height:300px;">
 		  <div class="caption">
             <h3><?php echo $movie['title']; ?></h3>
             <p><?php echo $movie['description']; ?></p>

@@ -11,7 +11,6 @@ class Movie extends ActiveRecord
 
     public $movies;
 
-
     private function getContentsFromFile()
     {
         try {
@@ -121,12 +120,12 @@ class Movie extends ActiveRecord
           array (
             'id' => 1,
             'theater' => 'Hall#1',
-            'title' => '3D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
+            'title' => 'Tully',
+            'subtitle' => 'Tully',
+            'post' => 'web/images/movies/1.jpg',
+            'big_post' => 'web/images/movies/1.jpg',
             'price' => '22.99',
-            'description' => 'An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel StudiosAn unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel StudiosAn unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel StudiosAn unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel StudiosAn unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios',
+            'description' => 'The film is about Marlo, a mother of three including a newborn, who is gifted a night nanny by her brother. Hesitant to the extravagance at first, Marlo comes to form a unique bond with the thoughtful, surprising, and sometimes challenging young nanny named Tully.',
             'playing_time' => 
             array (
               0 => '11:00AM - 02:00PM',
@@ -148,12 +147,12 @@ class Movie extends ActiveRecord
           array (
             'id' => 2,
             'theater' => 'Hall#2',
-            'title' => '4D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
+            'title' => 'Overboard',
+            'subtitle' => 'Overboard',
+            'post' => 'web/images/movies/2.jpg',
+            'big_post' => 'web/images/movies/2.jpg',
+            'price' => '20.00',
+            'description' => 'A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee.',
             'playing_time' => 
             array (
               0 => '11:00AM - 02:00PM',
@@ -174,13 +173,13 @@ class Movie extends ActiveRecord
           2 => 
           array (
             'id' => 3,
-            'theater' => 'Hall#2',
-            'title' => '5D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
+            'theater' => 'Hall#3',
+            'title' => 'Les gardiennes',
+            'subtitle' => 'Les gardiennes',
+            'post' => 'web/images/movies/3.jpg',
+            'big_post' => 'web/images/movies/3.jpg',
+            'price' => '18.00',
+            'description' => 'Women are left behind to work a family farm during the Great War.',
             'playing_time' => 
             array (
               0 => '11:00AM - 02:00PM',
@@ -201,13 +200,13 @@ class Movie extends ActiveRecord
           3 => 
           array (
             'id' => 4,
-            'theater' => 'Hall#2',
-            'title' => '6D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
+            'theater' => 'Hall#4',
+            'title' => 'Acrimony',
+            'subtitle' => 'Acrimony',
+            'post' => 'web/images/movies/4.jpg',
+            'big_post' => 'web/images/movies/4.jpg',
+            'price' => '16.00',
+            'description' => 'A faithful wife, tired of standing by her devious husband, is enraged when it becomes clear she has been betrayed.',
             'playing_time' => 
             array (
               0 => '08:00AM - 10:00PM',
@@ -228,13 +227,13 @@ class Movie extends ActiveRecord
           4 => 
           array (
             'id' => 5,
-            'theater' => 'Hall#2',
-            'title' => '7D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
+            'theater' => 'Hall#5',
+            'title' => 'Life of the Party',
+            'subtitle' => 'Life of the Party',
+            'post' => 'web/images/movies/5.jpg',
+            'big_post' => 'web/images/movies/5.jpg',
+            'price' => '25.00',
+            'description' => 'After her husband abruptly asks for a divorce, a middle-aged mother returns to college in order to complete her degree.',
             'playing_time' => 
             array (
               0 => '11:00AM - 02:00PM',
@@ -249,87 +248,6 @@ class Movie extends ActiveRecord
                   0 => '4-3',
                   1 => '4-4',
                   2 => '4-5',
-                ),
-              ),
-          ),
-          5 => 
-          array (
-            'id' => 6,
-            'theater' => 'Hall#2',
-            'title' => '8D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
-            'playing_time' => 
-            array (
-              0 => '11:00AM - 02:00PM',
-              1 => '10:00PM - 11:00PM',
-              2 => '05:00PM - 08:00PM',
-              3 => '08:00PM - 11:00PM',
-            ),
-            'seats' => 
-              array (
-                '11/05/2018 11:00AM - 02:00PM' => 
-                array (
-                  0 => '5-3',
-                  1 => '5-8',
-                  2 => '5-4',
-                ),
-              ),
-          ),
-          6 => 
-          array (
-            'id' => 7,
-            'theater' => 'Hall#2',
-            'title' => '9D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
-            'playing_time' => 
-            array (
-              0 => '11:00AM - 02:00PM',
-              1 => '02:00PM - 05:00PM',
-              2 => '05:00PM - 08:00PM',
-              3 => '08:00PM - 11:00PM',
-            ),
-            'seats' => 
-              array (
-                '11/05/2018 11:00AM - 02:00PM' => 
-                array (
-                  0 => '3-9',
-                  1 => '4-10',
-                  2 => '5-10',
-                ),
-              ),
-          ),
-          7 => 
-          array (
-            'id' => 8,
-            'theater' => 'Hall#2',
-            'title' => '1D Avengers',
-            'subtitle' => '3D Avengers',
-            'post' => 'holder.js/400x300',
-            'big_post' => 'holder.js/545x600',
-            'price' => '22.99',
-            'description' => '',
-            'playing_time' => 
-            array (
-              0 => '11:00AM - 02:00PM',
-              1 => '02:00PM - 05:00PM',
-              2 => '05:00PM - 08:00PM',
-              3 => '08:00PM - 11:00PM',
-            ),
-            'seats' => 
-              array (
-                '10/05/2018 11:00AM - 02:00PM' => 
-                array (
-                  0 => '3-5',
-                  1 => '4-6',
-                  2 => '1-2',
                 ),
               ),
           ),

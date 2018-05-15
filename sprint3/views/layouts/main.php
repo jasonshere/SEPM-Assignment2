@@ -74,7 +74,7 @@ AppAsset::register($this);
             <!-- Start Atribute Navigation -->
             <div class="attr-nav">
                 <ul>
-                    <li class="dropdown">
+                    <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
                             <i class="fa fa-user"></i>
                         </a>
@@ -83,36 +83,33 @@ AppAsset::register($this);
                             <li><a href="#">My Orders</a></li>
                             <li><a href="#">My Cart</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
                             <i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
+                            <span class="badge"><?php echo count($this->params['cart']); ?></span>
                         </a>
                         <ul class="dropdown-menu cart-list">
+                            <?php foreach ($this->params['cart'] as $cart): ?>
                             <li>
-                                <a href="#" class="photo"><img src="web/images/thumb/thumb01.jpg" class="cart-thumb" alt="" /></a>
-                                <h6><a href="#">3D Avengers</a></h6>
-                                <p>2x - <span class="price">$20.99</span></p>
+                                <a href="<?php echo Yii::$app->urlManager->createUrl(['movie/detail', 'id' => $cart['id']]); ?>" class="photo"><img src="<?php echo strstr($cart['movie_post'],"holder.js")?$cart['movie_small_post']:$cart['movie_post']; ?>" style="width:50px;height:50px" class="cart-thumb" alt="<?php echo $cart['movie_name']; ?>" /></a>
+                                <h6><a href="<?php echo Yii::$app->urlManager->createUrl(['movie/detail', 'id' => $cart['id']]); ?>"><?php echo $cart['movie_name']; ?></a></h6>
+                                <p><?php echo $cart['quantity']; ?>x - <span class="price">$<?php echo $cart['price']; ?></span></p>
                             </li>
-                            <li>
-                                <a href="#" class="photo"><img src="web/images/thumb/thumb02.jpg" class="cart-thumb" alt="" /></a>
-                                <h6><a href="#">2D Avengers</a></h6>
-                                <p>1x - <span class="price">$10.33</span></p>
+                            <?php endforeach; ?>
+                            <?php if (count($this->params['cart']) > 0): ?>
+                            <li class="text-center">
+                            <button class="btn btn-success" onclick="window.location.href='<?php echo Yii::$app->urlManager->createUrl('cart/view'); ?>'">Go To Cart</button>
                             </li>
-                            <li>
-                                <a href="#" class="photo"><img src="web/images/thumb/thumb03.jpg" class="cart-thumb" alt="" /></a>
-                                <h6><a href="#">SEPM Movie</a></h6>
-                                <p>2x - <span class="price">$20.99</span></p>
+                            <?php else: ?>
+                            <li class="text-center">
+                                <Strong>There are not any items yet.</Strong>
                             </li>
-                            <li class="total">
-                                <span class="pull-right"><strong>Total</strong>: $0.00</span>
-                                <a href="#" class="btn btn-default btn-cart">Cart</a>
-                            </li>
+                            <?php endif; ?>
                         </ul>
                     </li>
                     <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                    <!--<li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>-->
                 </ul>
             </div>
             <!-- End Atribute Navigation -->
@@ -128,7 +125,7 @@ AppAsset::register($this);
         </div>   
 
         <!-- Start Side Menu -->
-        <div class="side">
+        <!--<div class="side">
             <a href="#" class="close-side"><i class="fa fa-times"></i></a>
             <div class="widget">
                 <h6 class="title">User Centre</h6>
@@ -146,7 +143,7 @@ AppAsset::register($this);
                     <li><a href="<?php echo Yii::$app->urlManager->createUrl(['site/faq']); ?>">FAQ</a></li>
                 </ul>
             </div>
-        </div>
+        </div>-->
         <!-- End Side Menu -->
     </nav>
     <!-- End Navigation -->
@@ -162,7 +159,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; RMIT-SEPM-Group 21 <?= date('Y') ?></p>
+        
+        <p class="pull-left" style="margin-left: 10px;">All images and information are from <a href="http://www.imdb.com" target="_blank">www.imdb.com</a>.</p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>

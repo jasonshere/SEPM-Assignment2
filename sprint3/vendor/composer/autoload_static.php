@@ -30,6 +30,18 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'l' => 
+        array (
+            'lulubin\\qrcode\\' => 15,
+        ),
+        'k' => 
+        array (
+            'kartik\\base\\' => 12,
+        ),
+        'g' => 
+        array (
+            'gdianov\\validators\\' => 19,
+        ),
         'e' => 
         array (
             'evgeniyrru\\yii2slick\\' => 21,
@@ -41,6 +53,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
+        ),
+        'a' => 
+        array (
+            'andrewblake1\\creditcard\\' => 24,
         ),
         'W' => 
         array (
@@ -119,6 +135,18 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
+        'lulubin\\qrcode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lulubin/yii2-helper-qrcode/src',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
+        'gdianov\\validators\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gdianov/yii2-creditcard-validator/src',
+        ),
         'evgeniyrru\\yii2slick\\' => 
         array (
             0 => __DIR__ . '/..' . '/evgeniyrru/yii2-slick',
@@ -130,6 +158,10 @@ class ComposerStaticInit9329c057665e28e1678bd9b7b3289f59
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'andrewblake1\\creditcard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/andrewblake1/yii2-credit-card',
         ),
         'Webmozart\\Assert\\' => 
         array (

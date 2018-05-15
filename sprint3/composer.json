@@ -19,7 +19,10 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "evgeniyrru/yii2-slick": "*",
-        "2amigos/yii2-gallery-widget": "~1.0"
+        "2amigos/yii2-gallery-widget": "~1.0",
+        "andrewblake1/yii2-credit-card": "@dev",
+        "gdianov/yii2-creditcard-validator": "^1.0",
+        "lulubin/yii2-helper-qrcode": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
