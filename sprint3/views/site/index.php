@@ -40,32 +40,26 @@ $this->title = 'Cinema Aurora';
 
 $items = [
     [
-        'url' => 'web/images/movies/1.jpg',
-        'src' => 'web/images/movies/1.jpg',
+        'url' => 'web/images/movies/1-big.jpg',
+        'src' => 'web/images/movies/1-big.jpg',
         'options' => ['title' => 'Tully']
     ],
 
     [
-        'url' => 'web/images/movies/2.jpg',
-        'src' => 'web/images/movies/2.jpg',
+        'url' => 'web/images/movies/2-big.jpg',
+        'src' => 'web/images/movies/2-big.jpg',
         'options' => ['title' => 'Overboard']
     ],
     
     [
-        'url' => 'web/images/movies/3.jpg',
-        'src' => 'web/images/movies/3.jpg',
-        'options' => ['title' => 'Les Guardians']
-    ],
-
-    [
-        'url' => 'web/images/movies/4.jpg',
-        'src' => 'web/images/movies/4.jpg',
+        'url' => 'web/images/movies/4-big.jpg',
+        'src' => 'web/images/movies/4-big.jpg',
         'options' => ['title' => 'Acrimony']
     ],
 
     [
-        'url' => 'web/images/movies/5.jpg',
-        'src' => 'web/images/movies/5.jpg',
+        'url' => 'web/images/movies/5-big.jpg',
+        'src' => 'web/images/movies/5-big.jpg',
         'options' => ['title' => 'Life of the Party']
     ],
 ];
@@ -73,7 +67,6 @@ $items = [
 echo dosamigos\gallery\Carousel::widget(['items' => $items]);
 
 ?>
-
     <div class="container">
         <h3 class="text-center latest">Latest Movies</h3>
         <div class="row">
