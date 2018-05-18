@@ -35,12 +35,14 @@ class CartController extends CommonController
             $name = Yii::$app->request->post('name');
             $address = Yii::$app->request->post('address');
             $tickets = (new Session())->get("cart");
+            $cartModel = new Cart();
+            $tickets = $cartModel->findAllPros($tickets);
             if (!$cartModel->validateCard($cardNo)) {
                 $code = -1;
                 $msg = 'The card number is incorrect!';
             } else {
                 // send email
-                if (Yii::$app->mailer->compose('pay/email', ['ticket_code' => md5(time()), 'name' => $name])
+                if (Yii::$app->mailer->compose('pay/email', ['ticket_code' => md5(time()), 'name' => $name, 'tickets' => $tickets])
                     ->setFrom('admin@gmail.com')
                     ->setTo($email)
                     ->setSubject('Your Ticket')
