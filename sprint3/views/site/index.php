@@ -63,8 +63,20 @@ $items = [
         'options' => ['title' => 'Life of the Party']
     ],
 ];
-
-echo dosamigos\gallery\Carousel::widget(['items' => $items]);
+$url = Yii::$app->urlManager->createUrl(['movie/detail']);
+echo dosamigos\gallery\Carousel::widget([
+    'items' => $items,
+    'clientEvents' => [
+        'onslide' => 'function(index, slide) {
+            var mid = index + 1;
+            var url = "'.$url.'&id="+mid;
+            slide.onclick = function(){
+                window.location.href=url;
+            }
+            $(slide).css("cursor", "pointer");
+        }'
+    ],
+]);
 
 ?>
     <div class="container">
@@ -73,9 +85,11 @@ echo dosamigos\gallery\Carousel::widget(['items' => $items]);
         <?php foreach($movies as $movie): ?>
           <div class="col-sm-3 col-md-3">
             <div class="thumbnail" style="height: 600px">
-            <img src="<?php echo $movie['post']; ?>" alt="<?php echo $movie['title']; ?>">
+            <a href="<?php echo Yii::$app->urlManager->createUrl(['movie/detail', 'id' => $movie['id']]); ?>" target="_blank">
+                <img src="<?php echo $movie['post']; ?>" alt="<?php echo $movie['title']; ?>">
+            </a>
               <div class="caption">
-                <h3><?php echo $movie['title']; ?></h3>
+                <h3><a href="<?php echo Yii::$app->urlManager->createUrl(['movie/detail', 'id' => $movie['id']]); ?>" target="_blank"><?php echo $movie['title']; ?></a></h3>
                 <p><?php echo substr($movie['description'], 0, 100); ?></p>
                 <p><a href="<?php echo Yii::$app->urlManager->createUrl(['movie/detail', 'id' => $movie['id']]); ?>" class="btn btn-primary" role="button">View More</a></p>
               </div>
@@ -84,6 +98,12 @@ echo dosamigos\gallery\Carousel::widget(['items' => $items]);
           <?php endforeach; ?>
         </div>
     </div>
-
-
 </div>
+
+
+
+
+
+
+
+

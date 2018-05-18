@@ -157,13 +157,24 @@ AppAsset::register($this);
     </div>
 </div>
 
-<footer class="footer">
+<footer class="footer" style="height: auto;">
     <div class="container">
-        <p class="pull-left">&copy; RMIT-SEPM-Group 21 <?= date('Y') ?></p>
-        
-        <p class="pull-left" style="margin-left: 10px;">All images and information are from <a href="http://www.imdb.com" target="_blank">www.imdb.com</a>.</p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <div class="row" style="line-height: 0">
+            <p class="pull-left" style="line-height: 0;font-weight: 700">Our Details</p>
+        </div>
+        <div class="row" style="line-height: 0">
+            <p class="pull-left" style="line-height: 0">Aurora Cinema</p>
+            <p class="pull-left" style="margin-left: 10px;line-height: 0">Lygon, Melbourne VIC 3000</p>
+        </div>
+        <div class="row" style="line-height: 0">
+            <p class="pull-left">Contact@auroracinemas.com.au | 02 9847 5732</p>
+        </div>
+        <div class="row" style="line-height:0">
+            <p class="pull-left" style="line-height: 0;">All images and information are from <a href="http://www.imdb.com" target="_blank">www.imdb.com</a>.</p>
+            <p class="pull-right" style="margin-left:10px;line-height: 0;">&copy; RMIT-SEPM-Group 21 <?= date('Y') ?></p>
+            <p class="pull-right" style="line-height:0"><?= Yii::powered() ?></p>
+        </div>
     </div>
 </footer>
 

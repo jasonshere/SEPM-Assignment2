@@ -27,7 +27,7 @@
 
         <div class="col-md-6 col-sm-6">
             <h3 class="text-center"><?php echo $result['title']; ?></h3>
-            <h3 class="text-center" style="color: #dd0000">$ <?php echo $result['price']; ?></h3>
+            <h3 class="text-center" style="color: #dd0000">$ <?php echo $result['price']; ?> / ea</h3>
               <div class="form-group">
                 <label for="quantity">Quantity</label>
                 <input class="form-control" name="quantity" type="number" value="1" disabled>

@@ -25,7 +25,7 @@
                 <td><label class="label label-success"><?php echo $data['movie_theater']; ?></label></td>
                 <td><?php echo $data['quantity']; ?></td>
                 <td><?php echo "<label class=\"label label-primary\">". join("</label>  <label class=\"label label-primary\">", $data['seats']); ?></label></td>
-                <td class="text-right"><span><?php echo $sub = $data['price'] * $data['quantity']; ?></span> $</td>
+                <td class="text-right">$ <span><?php echo $sub = $data['price'] * $data['quantity']; ?></span></td>
                 <td class="text-right"><button class="btn btn-sm btn-danger delete_cart" data="<?php echo $data['cart_id']; ?>"><i class="fa fa-trash"></i> </button> </td>
             </tr>
             <?php $total += $sub; ?>
@@ -38,7 +38,7 @@
                 <td></td>
                 <td></td>
                 <td><strong>Total</strong></td>
-                <td class="text-right"><strong><span class="total_price"><?php echo $total; ?></span> $</strong></td>
+                <td class="text-right"><strong>$ <span class="total_price"><?php echo $total; ?></span></strong></td>
             </tr>
             <tr>
                 <td></td>
