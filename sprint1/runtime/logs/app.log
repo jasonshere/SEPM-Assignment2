@@ -1,0 +1,710 @@
+2018-05-20 23:37:46 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/SiteController.php:38
+2018-05-20 23:37:46 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:37:46 [10.211.55.2][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52749'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830666.0107
+    'REQUEST_TIME' => 1526830666
+]
+2018-05-20 23:37:46 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/SiteController.php:38
+2018-05-20 23:37:46 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:37:46 [10.211.55.2][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52749'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830666.8756
+    'REQUEST_TIME' => 1526830666
+]
+2018-05-20 23:37:51 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/MovieController.php:24
+2018-05-20 23:37:51 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:37:51 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'movie/view'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=movie%2Fview'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=movie%2Fview'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830671.2088
+    'REQUEST_TIME' => 1526830671
+]
+2018-05-20 23:37:54 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/MovieController.php:31
+2018-05-20 23:37:54 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:37:54 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'movie/detail'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=movie%2Fdetail&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=movie%2Fdetail&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/index.php?r=movie%2Fview'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830674.785
+    'REQUEST_TIME' => 1526830674
+]
+2018-05-20 23:38:11 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/CartController.php:22
+2018-05-20 23:38:11 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:38:11 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'cart/view'
+]
+
+$_POST = [
+    '_csrf' => 'LYhzT1hlFYv19W_8rWDQZR4n-32lDBtnMdmNT2Mlr9183j4FCRBd4q_YGIuYCadIdHWiDJFkeDhyo9woJ2nmtg=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=cart%2Fview'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '98'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Fview'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '98'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://sepm.rmit.edu.au'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/index.php?r=movie%2Fdetail&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830691.2193
+    'REQUEST_TIME' => 1526830691
+]
+2018-05-20 23:38:13 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/CartController.php:28
+2018-05-20 23:38:13 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:38:13 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'cart/pay'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=cart%2Fpay'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Fpay'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/index.php?r=cart%2Fview'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830693.7323
+    'REQUEST_TIME' => 1526830693
+]
+2018-05-20 23:38:15 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/MovieController.php:31
+2018-05-20 23:38:15 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:38:15 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'movie/detail'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=movie%2Fdetail&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=movie%2Fdetail&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/index.php?r=movie%2Fview'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830695.6748
+    'REQUEST_TIME' => 1526830695
+]
+2018-05-20 23:38:16 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/MovieController.php:24
+2018-05-20 23:38:16 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:38:16 [10.211.55.2][-][-][info][application] $_GET = [
+    'r' => 'movie/view'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => 'r=movie%2Fview'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=movie%2Fview'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://sepm.rmit.edu.au/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830696.5978
+    'REQUEST_TIME' => 1526830696
+]
+2018-05-20 23:38:17 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+    in /home/wwwroot/sepm/sprint1/views/layouts/main.php:149
+    in /home/wwwroot/sepm/sprint1/controllers/SiteController.php:38
+2018-05-20 23:38:17 [10.211.55.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.211.55.2
+2018-05-20 23:38:17 [10.211.55.2][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_ga' => 'GA1.3.1257898149.1519602664'
+    'permutive-id' => 'cbc60715-cbdd-429d-8fb3-be9c78ccf37b'
+    '__lc_visitor_id_7430141' => 'S1519603174.cce3152036'
+    'aam_tnt' => 'seg=6177523'
+    '__qca' => 'P0-1806586400-1519603178087'
+    'aam_uuid' => '52659732990237933912017993748558176885'
+    '__utma' => '212617111.1257898149.1519602664.1520861928.1523340622.4'
+    '__utmz' => '212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/'
+    'PHPSESSID' => '655mnhlhsqrdrhtq4s3096ui46'
+    '_csrf' => 'ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk\";}'
+    'permutive-session' => '{\"session_id\":\"79fd74d4-1e9b-4599-a9b7-a00b81955a6d\",\"last_updated\":\"2018-05-12T17:04:35.336Z\"}'
+    's_cc' => 'true'
+    'check' => 'true'
+    'lc_ssoundefined' => '1526352088068'
+    'lc_window_state' => 'minimized'
+    '_gid' => 'GA1.3.1820795510.1526775015'
+    'lc_sso7430141' => '1526775015984'
+    '_ceg_s' => 'p90o7g'
+    '_ceg_u' => 'p90o7g'
+    'mbox' => 'PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179'
+    '_iz_sd_ss_' => '{\"np\":12,\"se\":\"2018-05-14T10:04:58.240Z\",\"ru\":\"https://www.rmit.edu.au/\",\"ss\":null}'
+    '_iz_uh_ps_' => '{\"vi\":null,\"pv\":6,\"lv\":\"2018-05-20T07:45:19.071Z\",\"pr\":\"2018-05-09T00:55:58.708Z\",\"si\":[{\"i\":\"fkygdidd\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"frriujryyf\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"riyrhfdljr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"urijygrhih\",\"c\":-1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"uhgeijlhr\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ygymhlyl\",\"c\":1,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"rhurhluhff\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ujurfdahh\",\"c\":0,\"m\":false,\"s\":0,\"l\":null},{\"i\":\"ryyfgyuihy\",\"c\":0,\"m\":false,\"s\":0,\"l\":null}]}'
+    's_sq' => '[[B]]'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/sepm/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/sepm'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'REMOTE_ADDR' => '10.211.55.2'
+    'REMOTE_PORT' => '52750'
+    'SERVER_ADDR' => '10.211.55.8'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'sepm.rmit.edu.au'
+    'REDIRECT_STATUS' => '200'
+    'PHP_ADMIN_VALUE' => 'open_basedir=/home/wwwroot/sepm/:/tmp/:/proc/'
+    'HTTP_HOST' => 'sepm.rmit.edu.au'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_ga=GA1.3.1257898149.1519602664; permutive-id=cbc60715-cbdd-429d-8fb3-be9c78ccf37b; __lc.visitor_id.7430141=S1519603174.cce3152036; aam_tnt=seg%3D6177523; __qca=P0-1806586400-1519603178087; aam_uuid=52659732990237933912017993748558176885; __utma=212617111.1257898149.1519602664.1520861928.1523340622.4; __utmz=212617111.1523340622.4.4.utmcsr=sams.rmit.edu.au|utmccn=(referral)|utmcmd=referral|utmcct=/psp/ps/EMPLOYEE/HRMS/h/; PHPSESSID=655mnhlhsqrdrhtq4s3096ui46; _csrf=ac40ae5a16ccb73503d5b332bd3fbc064192e47bfe52c3d4c5d25b24a96ad1dea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QVMJQuHiZ-ww5iw-jRYq4hc_CzQgDLIk%22%3B%7D; permutive-session=%7B%22session_id%22%3A%2279fd74d4-1e9b-4599-a9b7-a00b81955a6d%22%2C%22last_updated%22%3A%222018-05-12T17%3A04%3A35.336Z%22%7D; s_cc=true; check=true; lc_ssoundefined=1526352088068; lc_window_state=minimized; _gid=GA1.3.1820795510.1526775015; lc_sso7430141=1526775015984; _ceg.s=p90o7g; _ceg.u=p90o7g; mbox=PC#0ed564abf1294f76bccc43f422a16d5f.27_15#1528011916|check#true#1526802376|session#62d3ef4c28c64baf8209a85018868bef#1526804179; _iz_sd_ss_=%7B%22np%22%3A12%2C%22se%22%3A%222018-05-14T10%3A04%3A58.240Z%22%2C%22ru%22%3A%22https%3A%2F%2Fwww.rmit.edu.au%2F%22%2C%22ss%22%3Anull%7D; _iz_uh_ps_=%7B%22vi%22%3Anull%2C%22pv%22%3A6%2C%22lv%22%3A%222018-05-20T07%3A45%3A19.071Z%22%2C%22pr%22%3A%222018-05-09T00%3A55%3A58.708Z%22%2C%22si%22%3A%5B%7B%22i%22%3A%22fkygdidd%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22frriujryyf%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22riyrhfdljr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22urijygrhih%22%2C%22c%22%3A-1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22uhgeijlhr%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ygymhlyl%22%2C%22c%22%3A1%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22rhurhluhff%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ujurfdahh%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%2C%7B%22i%22%3A%22ryyfgyuihy%22%2C%22c%22%3A0%2C%22m%22%3Afalse%2C%22s%22%3A0%2C%22l%22%3Anull%7D%5D%7D; s_sq=%5B%5BB%5D%5D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1526830697.6534
+    'REQUEST_TIME' => 1526830697
+]
